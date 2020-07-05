@@ -64,7 +64,7 @@ li {
     background: #eee linear-gradient(to bottom, #fcfcfc, #eee);
     border: 1px solid #d5d5d5;
     border-radius: 4px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     padding: 0 12px;
     font-size : 14px;
@@ -459,13 +459,56 @@ footer .logo svg:hover{
     header .menu-group{
         float: none;
     }
-
-    header .toggle {
-        display: none;
+    
+    header .menu-group {
+        display: block;         /* 로고 아래부분을 block으로 쌓이게 정의 */
     }
     header .logo {
         padding: 12px 0;
     }
+    header .main-menu {
+        display:block;          /* 기존에 display: flex인 것을 block으로 바꿈으로서 위에서 아래로 나오게 바꿈 */
+        margin-bottom: 10px;
+    }
+    header .main-menu li{
+        border-top: 1px solid #e5e5e5;
+    }
+    header .main-menu li a{
+        padding: 16px 0;
+    }
+    header .sign-group {
+        display: block;
+        padding: 10px 0 20px;
+    }
+    header .btn-group {
+        display: block;
+    }
+    header .btn-group .btn{
+        justify-content: center;;
+    }
+    header .btn-group .sign-in{
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    #search-form {
+        margin-top: 12px;
+        margin-right: 0;
+    }
+    #search {
+        width: 100%;
+        height: 36px;
+        text-align: center;
+    }
+    header .sub-menu {
+        margin-top: 12px;
+        margin-right: 0;
+        justify-content: center;
+    }
+    header .toggle {
+        display: none;
+    }
+    
+                                        
     #toggle-btn {
         background: url("../img/toggle-btn.svg");
         width: 18px;
