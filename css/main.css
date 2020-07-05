@@ -321,3 +321,26 @@ text-shadow : 0 1px 1px rgba(0,0,0,.25),
     height:100%;
     width:100%;
 }
+.section--feature .tiles {
+
+}
+.section--feature .tiles ul{
+
+}
+.section--feature .tiles li{
+
+}
+.section--feature .tiles li img{
+    max-width: 100%;
+    padding: 14px 10% 24px;
+}
+.section--feature .tiles li h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.section--feature .tiles li p{
+    font-size: 14px;
+    color: #767676;
+}
