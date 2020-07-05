@@ -447,3 +447,17 @@ footer .logo{
 footer .logo svg:hover{
     fill:  #4078c0;
 }
+
+/* MEDIA */
+@media (max-width: 1024px) {
+    header.section .inner {     /* header .inner 보다 .section .inner가 우선순위가 높으므로 header 내의 section클래스르 빌려와서 우선순위를 높힌다 */
+        max-width: none;        /* 기존의 max width 초기화 */
+        height: auto;           /* 햄버거가 되면 자동적으로 높이가 늘어나도록 초기화 해야한다 */
+        padding: 0 20px;
+    }
+    header .sign-group,
+    header .menu-group{
+        float: none;
+    }
+
+}
