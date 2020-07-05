@@ -460,4 +460,21 @@ footer .logo svg:hover{
         float: none;
     }
 
+    header .toggle {
+        display: none;
+    }
+    header .logo {
+        padding: 12px 0;
+    }
+    #toggle-btn {
+        background: url("../img/toggle-btn.svg");
+        width: 18px;
+        height: 24px;
+        position: absolute;        /* 부모에 relative 있는지 확인 */
+        top: 16px;
+        right: 20px;
+        cursor: pointer;
+        text-indent: -9999px;             /* 텍스트 화면에서 없애기 */
+    }
+    
 }
