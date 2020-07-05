@@ -212,6 +212,17 @@ header .sub-menu {
     display:flex;
     margin-right: 10px;
 }
+#toggle-btn {
+    display: none;      /* 일반적인 상황에서는 안보이도록 */
+    background: url("../img/toggle-btn.svg");
+    width: 18px;
+    height: 24px;
+    position: absolute;        /* 부모에 relative 있는지 확인 */
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;             /* 텍스트 화면에서 없애기 */
+}
 
 /* a태그는 inline 요소이므로 padding을 가질 수 없다 -> display:block */
 header .sub-menu li a{
@@ -511,14 +522,7 @@ footer .logo svg:hover{
         display: block;
     }            
     #toggle-btn {
-        background: url("../img/toggle-btn.svg");
-        width: 18px;
-        height: 24px;
-        position: absolute;        /* 부모에 relative 있는지 확인 */
-        top: 16px;
-        right: 20px;
-        cursor: pointer;
-        text-indent: -9999px;             /* 텍스트 화면에서 없애기 */
+        display: block;             /* 기본적으로 화면이 줄으면 보여야 한다. 기존에 설정된 내용을 보여주기만 하는 역할 */
     }
     
 }
