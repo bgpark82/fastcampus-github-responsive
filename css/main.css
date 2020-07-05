@@ -24,6 +24,17 @@ a {
     float: right;
 }
 
+/* SUMMARY */
+.summary {
+
+}
+.summary__title {
+
+}
+.summery__description {
+    
+}
+
 
 /* BTN */
 .btn {
@@ -192,4 +203,13 @@ header .sub-menu li a{
 
 header .sub-menu li a:hover{
     color: #4078c0;
+}
+
+/* VISUAL */
+.section--visual {
+
+}
+
+.section--visual .summary {
+
 }
