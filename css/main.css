@@ -506,9 +506,10 @@ footer .logo svg:hover{
     }
     header .toggle {
         display: none;
-    }
-    
-                                        
+    }     
+    header .toggle.on {
+        display: block;
+    }            
     #toggle-btn {
         background: url("../img/toggle-btn.svg");
         width: 18px;
