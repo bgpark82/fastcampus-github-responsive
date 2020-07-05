@@ -29,10 +29,28 @@ a {
 
 }
 .summary__title {
-
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 18px;
 }
-.summery__description {
-    
+.summary__description {
+    font-size: 26px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.5;
+}
+
+/* SECTION & INNER */
+.section {
+    position: relative;
+}
+
+.section .inner {
+    max-width: 980px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+    position: relative;
 }
 
 
@@ -121,9 +139,7 @@ header {
 }
 
 header .inner {
-    max-width: 980px;
     height: 78px;
-    margin: 0 auto; 
 }
 
 header .menu-group {
@@ -207,9 +223,10 @@ header .sub-menu li a:hover{
 
 /* VISUAL */
 .section--visual {
-
+    background-image : url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
-
-.section--visual .summary {
-
+.section--visual .inner {
+    padding: 160px 0;
 }
