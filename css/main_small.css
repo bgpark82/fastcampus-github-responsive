@@ -1,3 +1,22 @@
-body {
-    background-color: red;
+/* COMMON */
+.summary__title {
+    font-size: 34px !important;
+}
+.summary__description {      /* 우선순위가 낮다 */
+    font-size: 22px;
+}
+
+/* FEATURE */
+.section--feature .tiles li {
+    max-width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* WHERE IS */
+#map {
+    width: auto;            /* 가로 상태를 초기화 */
+    margin: 40px -20px 0 -20px;     /* map을 제외한 부모 아래의 모든 값의 좌우 패딩을 -20px로 맞춘다 */
+    border-left: none;
+    border-right: none;
 }
