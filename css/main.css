@@ -525,4 +525,24 @@ footer .logo svg:hover{
         display: block;             /* 기본적으로 화면이 줄으면 보여야 한다. 기존에 설정된 내용을 보여주기만 하는 역할 */
     }
     
+
+    /* VISUAL */
+    .section--visual {
+        background-image: url("../img/bg-small.jpg")
+    }
+    .section--visual .inner{
+        display: block;
+        max-width: none;
+        padding: 80px 20px;   
+    }
+    .section--visual .summary {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    #sign-form {
+        width: auto;            /* 기본값으로 초기화 */
+        max-width: 500px;
+        margin: 0 auto;
+    }
 }
